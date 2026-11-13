@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background-color: whitesmoke;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.alpha-items {
+  display: flex;
+  align-items: center;
+}
+
+.alpha-items li {
+  font-weight: 500;
+  font-size: 18px;
+  list-style: none;
+  margin-left: 100px;
+}
+
+.section {
+  margin-top: 150px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.prime {
+  justify-items: center;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.plan-content {
+  border-radius: 8px;
+  width: 100%;
+  /* border: 2px solid; */
+  max-width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.wink {
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.content-head {
+  /* justify-items: center; */
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.button button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.package {
+  /* margin-top: 10px; */
+  font-size: 18px;
+  background-color: rgb(194, 194, 240);
+  /* border-radius: 8px; */
+  /* padding: 20px; */
+}
+
+.package li {
+  list-style: decimal;
+}
